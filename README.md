@@ -15,7 +15,7 @@
 1. Add `iubenda-module` dependency to your project
 
 ```bash
-yarn add @nuxtjs/iubenda # or npm install @nuxtjs/iubenda
+yarn add iubenda-module # or npm install iubenda-module
 ```
 
 2. Add `iubenda-module` to the `modules` section of `nuxt.config.js`
