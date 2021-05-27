@@ -88,15 +88,15 @@ $iubenda.privacyPolicyUrl // Link to privacy policy
 $iubenda.cookiePolicyUrl // Link to cookie policy
 $iubenda.privacyPolicyApiUrl // Url to use in an API call for the privacy policy
 $iubenda.cookiePolicyApiUrl // Url to use in an API call for the cookie policy
-$iubenda.getPrivacyPolicyLinkHtml('Label') // Link tag to the privacy policy page / popup
-$iubenda.getCookiePolicyLinkHtml('Label') // Link tag to the cookie policy page / popup
+$iubenda.getPrivacyPolicyLinkHtml('Label', attributes) // Link tag to the privacy policy page / popup
+$iubenda.getCookiePolicyLinkHtml('Label', attributes) // Link tag to the cookie policy page / popup
 ```
 
 Example:
 ```html
   <template>
-    <div v-html="$iubenda.getPrivacyPolicyLinkHtml('Privacybeleid')"></div>
-    <div v-html="$iubenda.getCookiePolicyLinkHtml('Cookiebeleid')"></div>
+    <div v-html="$iubenda.getPrivacyPolicyLinkHtml('Privacybeleid', {classes: 'link'})"></div>
+    <div v-html="$iubenda.getCookiePolicyLinkHtml('Cookiebeleid', {classes: 'another-link'})"></div>
   </template>
 ```
 
@@ -105,13 +105,13 @@ Will render (depending on your 'links' options):
   <div>
     <a 
       href="https://www.iubenda.com/privacy-policy/12345" 
-      class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed"
+      class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed link"
       title="Privacybeleid">
       Privacybeleid
     </a>
     <a 
       href="https://www.iubenda.com/privacy-policy/12345/cookie-policy" 
-      class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed" 
+      class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed another-link" 
       title="Cookiebeleid">
       Cookiebeleid
     </a>
