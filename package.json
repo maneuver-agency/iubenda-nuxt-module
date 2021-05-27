@@ -20,7 +20,8 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
-    "lodash.template": "^4.5.0"
+    "lodash.template": "^4.5.0",
+    "object-assign-deep": "^0.4.0"
   },
   "devDependencies": {
     "@babel/core": "latest",
