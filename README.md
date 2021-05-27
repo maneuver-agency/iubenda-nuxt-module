@@ -51,8 +51,29 @@ yarn add iubenda-module # or npm install iubenda-module
     config: {
       siteId: 12345, // Required
       cookiePolicyId: 12345, // Required
-      lang: 'nl' // Default: 'en'
+
       // ...all other config options. (See Iubenda cookie banner script)
+      // Example defaults:
+      lang: 'en',
+      gdprAppliesGlobally: false,
+      cookiePolicyInOtherWindow: false,
+      consentOnContinuedBrowsing: false,
+      perPurposeConsent: true,
+      banner: {
+        acceptButtonDisplay: true,
+        customizeButtonDisplay: true,
+        rejectButtonDisplay: false,
+        acceptButtonColor: 'black',
+        acceptButtonCaptionColor: 'white',
+        customizeButtonColor: '#bbb',
+        customizeButtonCaptionColor: 'black',
+        rejectButtonColor: 'white',
+        rejectButtonCaptionColor: 'black',
+        closeButtonDisplay: false,
+        position: 'float-bottom-right',
+        textColor: '#333',
+        backgroundColor: '#ddd'
+      }
     }
   }
 }
