@@ -1,4 +1,4 @@
-# @nuxtjs/iubenda
+# Iubenda Nuxt Module
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -12,22 +12,22 @@
 
 ## Setup
 
-1. Add `@nuxtjs/iubenda` dependency to your project
+1. Add `iubenda-module` dependency to your project
 
 ```bash
 yarn add @nuxtjs/iubenda # or npm install @nuxtjs/iubenda
 ```
 
-2. Add `@nuxtjs/iubenda` to the `modules` section of `nuxt.config.js`
+2. Add `iubenda-module` to the `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    '@nuxtjs/iubenda',
+    'iubenda-module',
 
     // With options
-    ['@nuxtjs/iubenda', { /* module options */ }]
+    ['iubenda-module', { /* module options */ }]
   ]
 }
 ```
@@ -45,17 +45,17 @@ yarn add @nuxtjs/iubenda # or npm install @nuxtjs/iubenda
 Copyright (c) David De Coninck <david@maneuver.be>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxtjs/iubenda/latest.svg
-[npm-version-href]: https://npmjs.com/package/@nuxtjs/iubenda
+[npm-version-src]: https://img.shields.io/npm/v/iubenda-module/latest.svg
+[npm-version-href]: https://npmjs.com/package/iubenda-module
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/@nuxtjs/iubenda.svg
-[npm-downloads-href]: https://npmjs.com/package/@nuxtjs/iubenda
+[npm-downloads-src]: https://img.shields.io/npm/dt/iubenda-module.svg
+[npm-downloads-href]: https://npmjs.com/package/iubenda-module
 
-[github-actions-ci-src]: https://github.com//workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com//actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/maneuver-agency/iubenda-nuxt-module/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/maneuver-agency/iubenda-nuxt-module/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/.svg
-[codecov-href]: https://codecov.io/gh/
+[codecov-src]: https://img.shields.io/codecov/c/github/maneuver-agency/iubenda-nuxt-module.svg
+[codecov-href]: https://codecov.io/gh/maneuver-agency/iubenda-nuxt-module
 
-[license-src]: https://img.shields.io/npm/l/@nuxtjs/iubenda.svg
-[license-href]: https://npmjs.com/package/@nuxtjs/iubenda
+[license-src]: https://img.shields.io/npm/l/iubenda-module.svg
+[license-href]: https://npmjs.com/package/iubenda-module
