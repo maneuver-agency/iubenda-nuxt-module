@@ -49,8 +49,8 @@ yarn add iubenda-module # or npm install iubenda-module
 
     // Entire iubenda configuration
     config: {
-      siteId: 12345 // Required
-      cookiePolicyId: 12345 // Required
+      siteId: 12345, // Required
+      cookiePolicyId: 12345, // Required
       lang: 'nl' // Default: 'en'
       // ...all other config options. (See Iubenda cookie banner script)
     }
