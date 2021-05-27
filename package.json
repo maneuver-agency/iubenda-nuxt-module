@@ -1,5 +1,5 @@
 {
-  "name": "@nuxtjs/iubenda",
+  "name": "iubenda-module",
   "version": "0.0.1",
   "description": "Easily integrate Iubenda with Nuxt.js",
   "repository": "",
