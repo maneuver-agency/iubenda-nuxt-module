@@ -118,11 +118,30 @@ Will render (depending on your 'links' options):
   </div>
 ```
 
-## Development
+## Components
 
-1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `npm run dev`
+### PageEmbed
+
+Used to embed the cookie policy and privacy policy page in your site.
+
+Import component.
+```js
+import PageEmbed from 'iubenda-module/lib/components/PageEmbed.vue'
+```
+
+Use in template.
+```html
+  <PageEmbed type="cookie" loadingText="Loading cookie policy" errorText="Something went wrong">
+```
+
+#### Props
+
+- type:
+  Can either be 'cookie' or 'privacy'. Defaults to 'privacy'.
+- loadingText:
+  The text shown when the content is being fetched. Defaults to 'Loading content...'.
+- errorText:
+  The text shown when the fetch has failed. Defaults to 'Error fetching content'.
 
 ## License
 
