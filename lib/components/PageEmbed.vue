@@ -21,6 +21,7 @@ export default {
     }
   },
   async fetch () {
+    console.log(this.$i18n)
     const apiUrl =
       this.type === 'cookie'
         ? this.$iubenda.cookiePolicyApiUrl
