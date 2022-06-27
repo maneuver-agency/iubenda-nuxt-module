@@ -1,6 +1,6 @@
 {
   "name": "iubenda-module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Easily integrate Iubenda with Nuxt.js",
   "repository": "https://github.com/maneuver-agency/iubenda-nuxt-module",
   "license": "MIT",
