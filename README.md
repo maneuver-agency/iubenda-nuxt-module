@@ -75,6 +75,8 @@ yarn add iubenda-module # or npm install iubenda-module
         backgroundColor: '#ddd'
       }
     }
+
+    i18n: {} // See integrations.
   }
 }
 ```
@@ -142,6 +144,34 @@ Use in template.
   The text shown when the content is being fetched. Defaults to 'Loading content...'.
 - errorText:
   The text shown when the fetch has failed. Defaults to 'Error fetching content'.
+
+
+## Integrations
+
+### nuxt/i18n
+
+!! Work in progress...
+
+Currently only the PageEmbed component inherits the locale from the i18n module. You only  have to set the correct configuration as below.
+
+#### Configuration
+
+```
+// nuxt.config.js
+{
+  iubenda: {
+    // ...other options
+    i18n: {
+      en: {
+        cookiePolicyId: 123456
+      },
+      nl: {
+        cookiePolicyId: 123456
+      }
+    }
+  }
+}
+```
 
 ## License
 
